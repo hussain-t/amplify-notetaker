@@ -1,0 +1,10 @@
+{
+    "AppSyncApiName": "amplifynotetaker",
+    "DynamoDBBillingMode": "PAY_PER_REQUEST",
+    "AuthCognitoUserPoolId": {
+        "Fn::GetAtt": [
+            "authcognitodaacd076",
+            "Outputs.UserPoolId"
+        ]
+    }
+}
